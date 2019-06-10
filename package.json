@@ -1,0 +1,39 @@
+{
+  "name": "json-it",
+  "version": "1.0.0",
+  "description": "Nodejs cli/lib package to convert plain text to json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mailoman/node-json-it.git"
+  },
+  "homepage": "http://json-it.tk",
+  "readme": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --temp-directory=coverage mocha tests",
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls"
+  },
+  "bin": {
+    "json-it": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "nodejs",
+    "json",
+    "cli"
+  ],
+  "author": "Alex <npm@json-it.tk>",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^5.0.5"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
