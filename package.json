@@ -1,5 +1,6 @@
 {
-  "name": "json-it",
+  "name": "@mailoman/json-it",
+  "scope": "mailoman",
   "version": "1.0.0",
   "description": "Nodejs cli/lib package to convert plain text to json",
   "repository": {

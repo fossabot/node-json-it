@@ -2,7 +2,7 @@
 This package provides a way to convert plain text to formatted json.
 
 ## Install
-`npm i json-it`
+`npm i @mailoman/json-it`
 
 ## Dependencies
 Just two packages are in dependencies, both are related to cli:
@@ -27,7 +27,7 @@ Will give result:
 ```
 
 ## Cli usage
-Installing `npm i -g json-it` makes it available via cli `json-it`
+Installing `npm i -g @mailoman/json-it` makes it available via cli `json-it`
 
 Triggering `json-it -h` gives usage text
 ```bash
