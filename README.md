@@ -1,4 +1,6 @@
 # json-it
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmailoman%2Fnode-json-it.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmailoman%2Fnode-json-it?ref=badge_shield)
+
 This package provides a way to convert plain text to formatted json.
 
 ## Install
@@ -187,3 +189,7 @@ last line
 * `cat ./tests/data/test11.txt | json-it`
 * result:
 `{}`
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmailoman%2Fnode-json-it.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmailoman%2Fnode-json-it?ref=badge_large)
